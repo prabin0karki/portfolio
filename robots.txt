@@ -1,0 +1,16 @@
+User-Agent: *
+Disallow: /readme.md
+Disallow: /BingSiteAuth.xml
+Disallow: /google84c823f350cb1d49.html
+
+# Directories
+Disallow: /zohoverify/
+Disallow: /.well-known/
+
+# Sitemap
+Sitemap: http://prabin1996.com.np/sitemap.xml
+
+User-Agent: Googlebot
+Allow: /*.js*
+Allow: /*.css*
+Allow: /*.jpg*
