@@ -1,0 +1,28 @@
+{
+  "version": "1.0.0",
+  "name": "Prabin Karki",
+  "launch_path": "/",
+  "description": "Prabin Karki  is a result-oriented Web Developer with over 2 years of experience delivering creative, client-centric tools with value-driven solutions. He has developed applications for web and ML as well as Al Field.",
+  'theme_color':'#0069c0',
+  'background_color':'#ffffff',
+  'start_url':'/index.html',
+  "icons": {
+    "128": "img/prabin_visitnepal.jpg"
+  },
+  "developer": {
+    "name": "Prabin Karki",
+    "url": "https://kprabin.com.np"
+  },
+  "installs_allowed_from": [
+    "*"
+  ],
+  "default_locale": "en",
+  "permissions": {
+  },
+  "locales": {
+    "en": {
+      "name": "Prabin Karki",
+      "description": "Prabin Karki  is a result-oriented Web Developer with over 2 years of experience delivering creative, client-centric tools with value-driven solutions. He has developed applications for web and ML as well as Al Field."
+    }
+  }
+}
