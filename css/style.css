@@ -55,6 +55,10 @@ h6,
 .h6 {
     font-weight: bold;
     font-family: Raleway, sans-serif;
+
+    /* added */
+    font-size: 23px;
+    margin-top: -35px;
 }
 
 ::-webkit-scrollbar {
@@ -592,7 +596,7 @@ body.section-show .transition-mask:before {
     -o-transform-origin: 0% 0%;
     transform-origin: 0% 0%;
     text-transform: uppercase;
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 
 .front-person-titles > .t2 {
@@ -604,7 +608,7 @@ body.section-show .transition-mask:before {
     -o-transform: translateY(-100%);
     transform: translateY(-100%);
     text-transform: uppercase;
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 
 .front-person-titles > .t3 {
@@ -616,7 +620,7 @@ body.section-show .transition-mask:before {
     -o-transform: translateY(100%) rotate(180deg);
     transform: translateY(100%) rotate(180deg);
     text-transform: uppercase;
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 
 .front-person-links {
