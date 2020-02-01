@@ -58,8 +58,11 @@ h6,
 }
 
 .dashboard-text{
-  font-size: 22px !important; 
+  font-size: 22px !important;
 
+}
+.about-text{
+  font-size: 15px !important;
 }
 
 ::-webkit-scrollbar {
