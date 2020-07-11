@@ -116,36 +116,6 @@
 
      });
 
-//=====================================================================================
-//  05.   Team Slider
-//=====================================================================================
-
-  $('.team_member').owlCarousel({
-   loop: true,
-   autoplay: false,
-   autoplayTimeout: 5000,
-   margin: 30,
-   nav: true,
-   dots: false,
-   navText: ['<span class="fa fa-angle-left"></span>','<span class="fa fa-angle-right"></span>'],
-   responsive:{
-
-      0:{
-        items:1
-      },
-      600:{
-        items:1
-      },
-      1024:{
-        items:3
-      },
-      1200:{
-        items:3
-      }
-    }
-
-   });
-
 
 //=====================================================================================
 // 07.    Fact Counter
@@ -224,14 +194,7 @@
       $('.filter-list').mixItUp({});
     }
 
-//=====================================================================================
-//  10.   Youtube and Vimeo video popup control
-//=====================================================================================
 
-     jQuery(function(){
-      jQuery("a.video-popup").YouTubePopUp();
-      //jQuery("a.video-popup").YouTubePopUp( { autoplay: 0 } ); // Disable autoplay
-     });
 
 //=========================================================================================
 //  11.   Contact Form Validation

@@ -49,7 +49,7 @@ Table of CSS Content arrage with every section name
 	Typography links
  	Import Google Fonts
 =====================================================================================*/
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i,800,800i|Poppins:400,400i,600,600i,700,700i,800,800i");
+/* @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i,800,800i|Poppins:400,400i,600,600i,700,700i,800,800i"); */
 
 /*===================================================================================
 01.		Default Css
@@ -392,21 +392,12 @@ a:hover,a:focus,a.active{
 .bg_transparent{
   background-color: transparent;
 }
-.background1{
-  background-image: url(../images/slider/03.jpg);
-}
-.background2{
-    background: url(../images/background/01.jpg) no-repeat center fixed;
-}
+
 .background3{
   background-image: url(../images/slider/pk.jpg);
 }
-.background4{
-  background-image: url(../images/slider/05.jpg);
-}
-.background5{
-  background-image: url(../images/slider/06.jpg);
-}
+
+
 .background6{
     background-image: url(../images/footer.png);
     background-size: cover;
@@ -414,17 +405,7 @@ a:hover,a:focus,a.active{
     width: 100%;
     height: auto;
 }
-.background7{
-  background-image: url(../images/background/02.jpg);
-}
-.background8{
-  background-image: url(../images/background/03.png);
-}
-.background9{
-  background-image: url(../images/background/04.jpg);
-  background-size: cover;
-  background-position: center center;
-}
+
 /*====================================================================
 08.   Nav Menu Css
 ======================================================================*/
@@ -679,37 +660,6 @@ ul#menu li a{
  top: 50%;
  left: 50%;
  z-index: 2
-}
-.video-popup .inner_title.center_middle{
- margin-top: 80px
-}
-.YouTubePopUp-Wrap {
-  background-color: rgba(0, 0, 0, 0.8);
-  height: 100%;
-  left: 0;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 99999
-}
-.YouTubePopUp-Content {
-  background: rgba(0, 0, 0, 0) url("../images/fancybox/fancybox_loading.gif") no-repeat scroll center center;
-  display: block;
-  height: 100%;
-  margin: 0 auto;
-  max-width: 680px;
-  position: relative
-}
-.YouTubePopUp-Content iframe {
-  border: medium none;
-  bottom: 0;
-  display: block;
-  height: 480px;
-  margin: auto 0;
-  max-width: 100%;
-  position: absolute;
-  top: 0;
-  width: 100%
 }
 .profile_img.personal_video{
     position: relative;
@@ -1981,121 +1931,7 @@ label.radios {
   background-color:#1da8ab;
 }
 /*
-  Default Background css
-====================================================================*/
-.body_bg_1 {
-  background: url(../images/bg-image/bg-1.jpg) no-repeat fixed;
-  background-position: center center;
-  background-size: cover;
-}
-.body_bg_2 {
-  background: url(../images/bg-image/bg-2.jpg) no-repeat fixed;
-  background-position: center center;
-  background-size: cover;
-}
-.body_bg_3 {
-  background: url(../images/bg-image/bg-3.jpg) no-repeat fixed;
-  background-position: center center;
-  background-size: cover;
-}
-.body_bg_4 {
-  background: url(../images/bg-image/bg-4.jpg) no-repeat fixed;
-  background-position: center center;
-  background-size: cover;
-}
-.body_bg_5 {
-  background: url(../images/bg-image/bg-5.jpg) no-repeat fixed;
-  background-position: center center;
-  background-size: cover;
-}
-.body_bg_6 {
-  background: url(../images/bg-image/bg-6.jpg) no-repeat fixed;
-  background-position: center center;
-  background-size: cover;
-}
-.body_bg_7 {
-  background: url(../images/bg-image/bg-7.jpg) no-repeat fixed;
-  background-position: center center;
-  background-size: cover;
-}
-.body_bg_8 {
-  background: url(../images/bg-image/bg-8.jpg) no-repeat fixed;
-  background-position: center center;
-  background-size: cover;
-}
-.body_bg_9 {
-  background: url(../images/bg-image/bg-9.jpg) no-repeat fixed;
-  background-position: center center;
-  background-size: cover;
-}
-.body_bg_10 {
-  background: url(../images/bg-image/bg-10.jpg) no-repeat fixed;
-  background-position: center center;
-  background-size: cover;
-}
-.pattern_1{
-  background: url(../images/bg-image/pattern/1.png) repeat fixed;
-}
-.pattern_2{
-  background: url(../images/bg-image/pattern/2.png) repeat fixed;
-}
-.pattern_3{
-  background: url(../images/bg-image/pattern/3.png) repeat fixed;
-}
-.pattern_4{
-  background: url(../images/bg-image/pattern/4.png) repeat fixed;
-}
-.pattern_5{
-  background: url(../images/bg-image/pattern/5.png) repeat fixed;
-}
 
-
-.box_bg_style .pattern1{
-  background: url(../images/bg-image/pattern/1.png) no-repeat center;
-}
-.box_bg_style .pattern2{
-  background: url(../images/bg-image/pattern/2.png) no-repeat center;
-}
-.box_bg_style .pattern3{
-  background: url(../images/bg-image/pattern/3.png) no-repeat center;
-}
-.box_bg_style .pattern4{
-  background: url(../images/bg-image/pattern/4.png) no-repeat center;
-}
-.box_bg_style .pattern5{
-  background: url(../images/bg-image/pattern/5.png) no-repeat center;
-}
-
-.box_bg_style .body_image1{
-  background: url(../images/bg-image/bg-1.jpg) no-repeat center / cover;
-}
-.box_bg_style .body_image2{
-  background: url(../images/bg-image/bg-2.jpg) no-repeat center / cover;
-}
-.box_bg_style .body_image3{
-  background: url(../images/bg-image/bg-3.jpg) no-repeat center / cover;
-}
-.box_bg_style .body_image4{
-  background: url(../images/bg-image/bg-4.jpg) no-repeat center / cover;
-}
-.box_bg_style .body_image5{
-  background: url(../images/bg-image/bg-5.jpg) no-repeat center / cover;
-}
-.box_bg_style .body_image6{
-  background: url(../images/bg-image/bg-6.jpg) no-repeat center / cover;
-}
-.box_bg_style .body_image7{
-  background: url(../images/bg-image/bg-7.jpg) no-repeat center / cover;
-}
-.box_bg_style .body_image8{
-  background: url(../images/bg-image/bg-8.jpg) no-repeat center / cover;
-}
-.box_bg_style .body_image9{
-  background: url(../images/bg-image/bg-9.jpg) no-repeat center / cover;
-}
-.box_bg_style .body_image10{
-  background: url(../images/bg-image/bg-10.jpg) no-repeat center / cover;
-}
 
 /*=================================================================================
  31.   Responsive Media Queries Css
