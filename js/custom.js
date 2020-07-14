@@ -43,7 +43,7 @@
 
   function handlePreloader() {
     if($('.preloader').length){
-      $('.preloader').delay(300).fadeOut('slow');
+      $('.preloader').delay(100).fadeOut('slow');
       $('body').removeClass('page-load');
     }
   }
