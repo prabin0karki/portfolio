@@ -8,7 +8,7 @@ Disallow: /zohoverify/
 Disallow: /.well-known/
 
 # Sitemap
-Sitemap: http://kprabin.com.np/sitemap.xml
+Sitemap: https://kprabin.com.np/sitemap.xml
 
 User-Agent: Googlebot
 Allow: /*.js*
