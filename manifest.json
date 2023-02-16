@@ -2,7 +2,7 @@
   "name": "Prabin Karki",
   "short_name": "Prabin",
   "icons": [{
-      "src": "/images/slider/prabin_visitnepal.jpg",
+      "src": "/assets/img/prabin-quote.jpg",
       "type": "image/jpg",
       "sizes": "128x128"
     }],
