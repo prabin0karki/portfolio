@@ -1,13 +1,13 @@
 {
-  "name": "Prabin Karki",
-  "short_name": "Prabin",
-  "icons": [{
-      "src": "/assets/img/prabin-quote.jpg",
-      "type": "image/jpg",
-      "sizes": "128x128"
-    }],
-  "start_url": "/index.html",
-  "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#0069c0"
-}
+    "name": "Prabin Karki",
+    "short_name": "Prabin",
+    "icons": [{
+        "src": "/assets/logo/prabin-hero.png",
+        "type": "image/jpg",
+        "sizes": "128x128"
+      }],
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#0069c0"
+  }

@@ -22,6 +22,3 @@ Crawl-delay: 5
 Allow: /*.js*
 Allow: /*.css*
 Allow: /*.jpg*
-
-
-
