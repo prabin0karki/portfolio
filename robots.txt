@@ -1,24 +1,34 @@
+# General rules for all user-agents
 User-Agent: *
 Disallow: /readme.md
 Disallow: /BingSiteAuth.xml
 Disallow: /google84c823f350cb1d49.html
 
-# Directories
+# Block specific directories
 Disallow: /zohoverify/
 Disallow: /.well-known/
 
-# Sitemap
-Sitemap: https://kprabin.com.np/sitemap.xml
+# Allow essential resources for proper rendering
+Allow: /*.js$
+Allow: /*.css$
+Allow: /*.jpg$
+Allow: /*.png$
+Allow: /*.gif$
 
-User-agent: Googlebot
-Disallow: 
-User-agent: googlebot-image
-Disallow: 
-User-agent: googlebot-mobile
-Disallow: 
-User-agent: *
-Disallow: 
+# Set a crawl delay to manage server load
 Crawl-delay: 5
-Allow: /*.js*
-Allow: /*.css*
-Allow: /*.jpg*
+
+# Specific rules for Googlebot
+User-Agent: Googlebot
+Allow: /
+
+# Specific rules for Googlebot-Image
+User-Agent: googlebot-image
+Allow: /
+
+# Specific rules for Googlebot-Mobile
+User-Agent: googlebot-mobile
+Allow: /
+
+# Sitemap location
+Sitemap: https://kprabin.com.np/sitemap.xml
