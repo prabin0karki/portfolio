@@ -1,0 +1,68 @@
+.form { display: grid; gap: 18px; }
+.heading { font-size: 1.2rem; }
+.row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+}
+.field { display: grid; gap: 6px; }
+.field label {
+  font-size: 0.88rem;
+  font-weight: 600;
+}
+.field input,
+.field textarea {
+  width: 100%;
+  min-height: 48px;
+  padding: 12px 14px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border-strong);
+  background: var(--bg-elev);
+  font-size: 1rem; /* >=16px prevents iOS zoom on focus */
+  transition: border-color var(--dur) var(--ease), box-shadow var(--dur) var(--ease);
+}
+.field textarea { resize: vertical; min-height: 140px; }
+.field input::placeholder,
+.field textarea::placeholder { color: var(--text-soft); }
+.field input:focus,
+.field textarea:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px var(--accent-soft);
+}
+.invalid { border-color: #ef4444 !important; }
+.error,
+.formError {
+  font-size: 0.85rem;
+  color: #f87171;
+}
+:global([data-theme='light']) .error,
+:global([data-theme='light']) .formError { color: #b91c1c; }
+.formError a { text-decoration: underline; }
+.honeypot {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+}
+.submit { justify-self: start; }
+.success {
+  display: grid;
+  justify-items: start;
+  gap: 12px;
+}
+.success p { color: var(--text-muted); }
+.successIcon {
+  display: grid;
+  place-items: center;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background: var(--accent-soft);
+  color: var(--accent);
+}
+@media (max-width: 560px) {
+  .row { grid-template-columns: 1fr; }
+  .submit { justify-self: stretch; }
+}

@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /google84c823f350cb1d49.html
+
+Sitemap: https://www.kprabin.com.np/sitemap.xml

@@ -1,0 +1,12 @@
+{
+  "name": "Prabin Karki | Senior Backend Engineer",
+  "short_name": "Prabin Karki",
+  "icons": [
+    { "src": "/icon-192.png", "type": "image/png", "sizes": "192x192" },
+    { "src": "/icon-512.png", "type": "image/png", "sizes": "512x512" }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0b0f17",
+  "theme_color": "#0b0f17"
+}

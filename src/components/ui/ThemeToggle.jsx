@@ -1,0 +1,11 @@
+import Icon from './Icon';
+import styles from './ThemeToggle.module.css';
+
+export default function ThemeToggle({ theme, onToggle }) {
+  const next = theme === 'dark' ? 'light' : 'dark';
+  return (
+    <button type="button" className={styles.toggle} onClick={onToggle} aria-label={`Switch to ${next} theme`} title={`Switch to ${next} theme`}>
+      <Icon name={theme === 'dark' ? 'sun' : 'moon'} size={18} />
+    </button>
+  );
+}
