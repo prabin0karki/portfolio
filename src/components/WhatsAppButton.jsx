@@ -1,5 +1,5 @@
 export default function WhatsAppButton() {
-  const phoneNumber = "97798XXXXXXXX"; // Country code + number, no '+' or spaces
+  const phoneNumber = "+9779861487381"; // Country code + number, no '+' or spaces
   const message = encodeURIComponent("Hi Prabin! I visited your portfolio and would like to connect.");
   const whatsappUrl = `https://wa.me/${phoneNumber}?text=${message}`;
 
